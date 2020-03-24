@@ -10,4 +10,3 @@ RUN curl -o /tmp/NIFCLOUD_api-tools.zip -SL https://pfs.nifcloud.com/api/sdk/jav
 ENV NIFTY_CLOUD_HOME=/usr/local/NIFCLOUD_api-tools_8.0.1
 ENV PATH=$PATH:$NIFTY_CLOUD_HOME/bin
 ENV JAVA_HOME=/usr
-#ENV JAVA_OPTS=-Duser.language=ja
